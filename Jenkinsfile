@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/YOURNAME/tomcat-jenkins-docker.git',
+                git url: 'https://github.com/dd-devops-18/tomcat-jenkins-docker.git',
                     branch: 'main'
             }
         }
